@@ -18,7 +18,7 @@ namespace NotDivisibleBy3And7
             int number;
             int.TryParse(Console.ReadLine(), out number);
 
-            for (int i = 1; i <= number; i++)
+            for (int i = 1; i <= number; i++) 
             {
                 if (i % (3*7) != 0)
                 {
